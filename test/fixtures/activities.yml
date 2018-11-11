@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  description: MyString
+  place_id: 1
+  age_rating: MyString
+  gender: MyString
+
+two:
+  type: 
+  description: MyString
+  place_id: 1
+  age_rating: MyString
+  gender: MyString

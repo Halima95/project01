@@ -1,0 +1,24 @@
+<h2> 
+<%= @city.name %>
+</h2>
+
+<h4> 
+Places to go :
+</h4>
+
+<% @city.places.each do |place|%>
+<p>
+<%= link_to  place.name, place_path(place) %>
+</p>
+<% end %>
+
+
+<h4>Things to do :</h4>
+
+<% @city.activities.each do |activity|%>
+<p>
+<%= link_to  activity.type_of, activity_path(activity) %>
+</p>
+<% end %>
+
+

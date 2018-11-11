@@ -9,7 +9,24 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+<header class="nav-wrapper blue-grey darken-1">
+
+<h1> Tourist Haven </h1>
+</header>
+
   <body>
+<nav>
+  <div class="nav-wrapper blue-grey darken-1">
+    <ul>
+     
+ <%= link_to "Cities", cities_path %>
+      <%= link_to "Places to go", places_path %>
+ <%= link_to "Activities", activities_path %>
+
+    </ul>
+  </div>
+</nav>
+
     <%= yield %>
   </body>
 </html>

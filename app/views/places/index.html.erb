@@ -1,0 +1,9 @@
+<h2> All Places </h2>
+
+<% @places.each do |place|%>
+<p>
+<%= link_to  place.name, place_path(place) %>
+</p>
+<% end %>
+
+
