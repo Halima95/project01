@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- @import "materialize";
+ /* @import "materialize";
 
  header{
 
@@ -21,4 +21,4 @@ font-family:  'Indie Flower', cursive;
 
 color: aliceblue;
 
- }
+ } */
