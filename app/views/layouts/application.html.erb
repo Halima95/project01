@@ -7,25 +7,31 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Indie+Flower|Patrick+Hand" rel="stylesheet">
   </head>
 
-<header class="nav-wrapper blue-grey darken-1">
+<header class="card-panel blue-grey darken-1">
 
 <h1> Tourist Haven </h1>
+ <div class="row">
+      <div class="col s4  z-depth-2">     
+       <%= link_to "Cities", cities_path %>
+      </div>
+      <div class="col s4  z-depth-2">
+        <%= link_to "Places to go", places_path %>
+      </div>
+      <div class="col s4  z-depth-2">
+       <%= link_to "Activities", activities_path %>
+      </div>
+     
+    </div>
+
+    
+
+
 </header>
 
   <body>
-<nav>
-  <div class="nav-wrapper blue-grey darken-1">
-    <ul>
-     
- <%= link_to "Cities", cities_path %>
-      <%= link_to "Places to go", places_path %>
- <%= link_to "Activities", activities_path %>
-
-    </ul>
-  </div>
-</nav>
 
     <%= yield %>
   </body>
