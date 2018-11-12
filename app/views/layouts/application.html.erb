@@ -14,24 +14,28 @@
     <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Indie+Flower|Patrick+Hand" rel="stylesheet">
   </head>
 
-<header class="card-panel blue-grey darken-1">
+<header class="card-panel brown lighten-3">
 
 <h1> Tourist Haven </h1>
+
  <div class="row">
-      <div class="col s4  z-depth-2">     
-       <%= link_to "Cities", cities_path %>
+      <div class="col s4 "> 
+         
+       <%= link_to "Cities", cities_path , class:"color" %>
+
       </div>
-      <div class="col s4  z-depth-2">
-        <%= link_to "Places to go", places_path %>
+      <div class="col s4 ">
+       
+        <%= link_to "Places to go", places_path, class:"color" %>
+
       </div>
-      <div class="col s4  z-depth-2">
-       <%= link_to "Activities", activities_path %>
+       
+      <div class="col s4 ">
+       <%= link_to "Things to do", activities_path, class:"color" %>
+
       </div>
      
     </div>
-
-    
-
 
 </header>
 

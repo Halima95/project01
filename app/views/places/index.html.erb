@@ -1,9 +1,24 @@
-<h2> All Places </h2>
 
+ <div class="places row">
 <% @places.each do |place|%>
-<p>
-<%= link_to  place.name, place_path(place) %>
-</p>
-<% end %>
+<div class="col s4">
+<div class="card medium">
+    <div class="card-image waves-effect waves-block waves-light">
+     <a href="<%=place_path(place)%>">
+    </div>
 
+<div class="card-image waves-effect waves-block waves-light">
+     <a href="<%=place_path(place)%>"> <img class="size", class="activator" src="<%= place.image %>"></a>
+    </div>
+
+
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">
+       <a class="color1", href="<%=place_path(place)%>"><%= place.name %> </a>
+      </span>
+    </div>
+  </div>
+ </div>
+<% end %>
+</div>
 

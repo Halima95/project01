@@ -17,8 +17,50 @@
 
  header{
 
-font-family:  'Indie Flower', cursive;
+font-family:  'Courgette', cursive;
 
 color: aliceblue;
 
  }
+
+.this-card > a {
+font-size: 50px;
+}
+
+span{
+
+font-family: 'Courgette', cursive;
+
+}
+a.color{
+    color: aliceblue;
+    font-size: 35px;
+}
+a.color1{
+    color:black;
+    font-size: 35px;
+}
+
+.size{
+
+    
+    height: 270px;
+
+
+}
+
+.align{
+
+position: relative;
+left: 500px;
+bottom: 98px;
+}
+.align1{
+
+position: relative;
+left: 508px;
+bottom: 92px;
+
+
+}
+
