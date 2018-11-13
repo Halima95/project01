@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 gem 'jquery-rails'
 gem 'httparty'
+gem "pry"
 
 gem 'cloudinary'
 gem 'rest-client', '~> 2.0'

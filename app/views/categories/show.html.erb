@@ -1,0 +1,7 @@
+<h2> <%= @category.name %></h2>
+
+<% @category.activities.each do |activity| %>
+<p>
+    <%= link_to activity.type_of, activity_path(activity) %>
+</p>
+<% end %>
