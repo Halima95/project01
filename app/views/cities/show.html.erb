@@ -1,28 +1,30 @@
 
-  <div class="row">
-  <div class="col s3">
-<h2> 
-<%= @city.name %>
-</h2>
-
-<h4> 
+<h4 class="font"> 
 Places to go :
 </h4>
 
+<div class="row left">
+
 <% @city.places.each do |place|%>
+<div class="col s12 ">
+<div class="card brown lighten-4 z-depth-3">
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">
+
 <p>
-<%= link_to  place.name, place_path(place) %>
+<%= link_to  place.name, place_path(place), class:"color" %>
 </p>
+<h4 class="font"> 
+Location: 
+</h4>
+<a href=" <%=place.location%>"> <%= place.location%> </a>
+
+   </span>
+    </div>
+  </div>
+ </div>
 <% end %>
+</div>
 
-
-<h4 class="align">Things to do :</h4>
-
-<% @city.activities.each do |activity|%>
-<p>
-<%= link_to  activity.type_of, activity_path(activity), class:"align1" %>
-</p>
-<% end %>
-
-
+  
 

@@ -1,10 +1,16 @@
-
-
-<h2>
-  <%= @place.name %>
-</h2>
-
-<p>
-Location: <a href=" <%= @place.location%>"> <%= @place.location%> </a>
-</p>
-
+<h2> Activities: </h2>
+<div class="activities row">
+<% @place.activities.each do |activity|%>
+<div class="col s3">
+<div class="card brown lighten-4">
+<h4 class="font"> 
+    <div class="card-content">
+    
+      <span class="card-title activator grey-text text-darken-4">
+       <a class="color1", href="<%=activity_path(activity)%>"><%= activity.type_of %></a>
+      </span>
+    </div>
+  </div>
+ </div>
+<% end %>
+</div>

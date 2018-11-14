@@ -37,7 +37,7 @@ a.color{
     font-size: 35px;
 }
 a.color1{
-    color:black;
+    color:aliceblue;
     font-size: 35px;
 }
 
@@ -45,29 +45,6 @@ a.color1{
 
     
     height: 270px;
-
-
-}
-
-.align{
-
-position: relative;
-left: 500px;
-bottom: 98px;
-}
-.align1{
-
-position: relative;
-left: 508px;
-bottom: 92px;
-
-
-}
-
-.Style{
-
-font-family: 'Times New Roman', Times, serif;
-font-size: 24px;
 
 
 }
@@ -80,3 +57,34 @@ font-size: 40px;
 
 }
 
+.color2{
+    color: white;
+    font-size: 35px;
+}
+
+h2{
+font-family:'Courgette', cursive;
+font-size: 30px;
+
+}
+.font{
+
+ font-family: 'Ubuntu', sans-serif;
+font-size: 30px;
+
+
+} 
+
+.bImage{
+
+background-image: url("saudi1.jpg");
+
+background-repeat: no-repeat;
+
+background-position: bottom;
+
+background-size:850px;
+
+
+
+}

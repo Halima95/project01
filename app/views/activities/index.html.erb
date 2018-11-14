@@ -2,8 +2,8 @@
 
 <div class="activities row">
 <% @activities.each do |activity|%>
-<div class="col s3">
-<div class="card medium">
+<div class="col s6">
+<div class="card brown lighten-4">
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">
        <a class="color1", href="<%=activity_path(activity)%>"><%= activity.type_of %></a>

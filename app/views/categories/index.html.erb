@@ -3,11 +3,11 @@
 
 <div class="row">
 <% @categories.each do |c| %>
-<div class="col s3">
-<div class="card medium">
+<div class="col s6 m4 ">
+<div class="card brown lighten-4 z-depth-3">
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">
-       <a class="color1", href="<%=category_path(c)%>"><%= c.name  %></a>
+       <a class="color2", href="<%=category_path(c)%>"><%= c.name  %></a>
       </span>
     </div>
   </div>

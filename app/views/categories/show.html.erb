@@ -1,7 +1,21 @@
-<h2> <%= @category.name %></h2>
 
+
+
+
+
+<div class="activities row">
+<h2 class="font"> <%= @category.name %> :</h2>
 <% @category.activities.each do |activity| %>
-<p>
-    <%= link_to activity.type_of, activity_path(activity) %>
-</p>
+<div class="col s6">
+<div class="card brown lighten-4">
+
+ <div class="card-content">
+    
+      <span class="card-title activator grey-text text-darken-4">
+       <a class="color1", href="<%=activity_path(activity)%>"><%= activity.type_of %></a>
+      </span>
+    </div>
+  </div>
+ </div>
 <% end %>
+</div>
