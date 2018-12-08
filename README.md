@@ -1,25 +1,48 @@
-# README
-Modify!!!
+# Full-stack application Project : Cinephilia - Film Freelancers 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### [ Heroku Link](https://touristhaven.herokuapp.com/)
 
-* Ruby version
+## Description :
 
-* System dependencies
+A full-stack application using Ruby on rails.
 
-* Configuration
+## Concept :
 
-* Database creation
+The idea of this project is to build a Tourist guide website , to help tourist to find the most attractive places and activities on Saudi Arabia. 
 
-* Database initialization
+## Built with :
 
-* How to run the test suite
+- [Ruby on Rails](https://rubyonrails.org/)
+- HTML
+- CSS
+- Javascript 
 
-* Services (job queues, cache servers, search engines, etc.)
+## Additional Libraries :
 
-* Deployment instructions
+- [Materialize ](https://materializecss.com)
 
-* ...
+## Gems used :
+
+- jQuery rails
+
+## Hosting :
+
+- [Heroku](https://www.heroku.com/)
+
+
+## Approach :
+
+First of all was deciding what I actually wanted to build after that the wireframing for the modles and website pages.
+
+## What's next:
+
+There's many additons to be added to this project such as : 
+- Meetup as API.
+- Institutions to add and updates the events.
+- Rating system for the places.
+
+## Credits:
+- Jack Jeffress.
+- Moath Althawad.
+- All WDI Oryx students.
