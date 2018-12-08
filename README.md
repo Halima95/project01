@@ -1,4 +1,4 @@
-# Full-stack application Project : Cinephilia - Film Freelancers 
+# Full-stack application Project : Tourist Haven.
 
 
 ### [ Heroku Link](https://touristhaven.herokuapp.com/)
