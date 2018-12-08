@@ -33,7 +33,7 @@ The idea of this project is to build a Tourist guide website , to help tourist t
 
 ## Approach :
 
-First of all was deciding what I actually wanted to build after that the wireframing for the modles and website pages.
+First of all was deciding what I actually wanted to build after that the wireframing for the models and website pages.
 
 ## What's next:
 
